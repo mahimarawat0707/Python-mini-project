@@ -14,7 +14,6 @@ PASS_MARK = 40              # minimum marks needed in every subject
 
 st.set_page_config(page_title="Student Marks Portal", page_icon="🎓")
 
-
 # ------------------------------------------------------------
 # 2. FILE FUNCTIONS (load and save data)
 # ------------------------------------------------------------
