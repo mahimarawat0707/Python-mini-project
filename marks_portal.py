@@ -50,7 +50,6 @@ def load_marks():
 def save_users(users):
     users.to_csv(USERS_FILE, index=False)
 
-
 def save_marks(marks):
     marks.to_csv(MARKS_FILE, index=False)
 
