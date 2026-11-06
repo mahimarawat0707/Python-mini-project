@@ -47,7 +47,6 @@ def load_marks():
     marks["username"] = marks["username"].astype(str)
     return marks
 
-
 def save_users(users):
     users.to_csv(USERS_FILE, index=False)
 
