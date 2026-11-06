@@ -53,7 +53,6 @@ def save_users(users):
 def save_marks(marks):
     marks.to_csv(MARKS_FILE, index=False)
 
-
 # ------------------------------------------------------------
 # 3. HELPER FUNCTIONS (calculations using NumPy)
 # ------------------------------------------------------------
