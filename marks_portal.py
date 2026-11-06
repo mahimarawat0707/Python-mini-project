@@ -65,7 +65,6 @@ def add_result_columns(marks_df):
     df["Result"] = np.where(np.all(values >= PASS_MARK, axis=1), "PASS", "FAIL")
     return df
 
-
 # ------------------------------------------------------------
 # 4. LOGIN PAGE
 # ------------------------------------------------------------
