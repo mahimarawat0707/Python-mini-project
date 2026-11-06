@@ -39,7 +39,6 @@ def create_files_if_missing():
         })
         marks.to_csv(MARKS_FILE, index=False)
 
-
 def load_users():
     return pd.read_csv(USERS_FILE, dtype=str)       # dtype=str keeps passwords as text
 
