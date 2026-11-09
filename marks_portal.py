@@ -141,7 +141,7 @@ def teacher_page():
         if "message" in st.session_state:
             st.success(st.session_state.pop("message"))   # show the message once
 
-  
+
         new_name = st.text_input("Student full name")
         new_username = st.text_input("Username for login").strip().lower()
         new_password = st.text_input("Password for student", type="password")
