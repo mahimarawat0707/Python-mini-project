@@ -56,7 +56,7 @@ student-marks-portal/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/student-marks-portal.git
+git clone https://github.com/mahimarawat0707/student-marks-portal.git
 cd student-marks-portal
 ```
 
