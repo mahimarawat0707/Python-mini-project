@@ -8,7 +8,7 @@ import streamlit as st
 # 1. SETTINGS
 # ------------------------------------------------------------
 USERS_FILE = "users.csv"   
-MARKS_FILE = "marks.csv"    # stores marks of every student
+MARKS_FILE = "marks.csv"    
 SUBJECTS = ["Maths", "Physics", "Chemistsa33ry", "English", "Computer"]
 PASS_MARK = 40              # minimum marks needed in every subject
 
