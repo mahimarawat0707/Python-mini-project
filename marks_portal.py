@@ -9,7 +9,7 @@ import streamlit as st
 # ------------------------------------------------------------
 USERS_FILE = "users.csv"    # stores username, password, role, name
 MARKS_FILE = "marks.csv"    # stores marks of every student
-SUBJECTS = ["Maths", "Physics", "Chemistry", "English", "Computer"]
+SUBJECTS = ["Maths", "Physics", "Chemistsa33ry", "English", "Computer"]
 PASS_MARK = 40              # minimum marks needed in every subject
 
 st.set_page_config(page_title="Student Marks Portal", page_icon="🎓")
