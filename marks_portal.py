@@ -253,7 +253,7 @@ def main():
     if st.sidebar.button("Logout"):
         st.session_state.clear()
         st.rerun()
- 
+
     # show the correct page for the role
     if st.session_state["role"] == "teacher":
         teacher_page()
